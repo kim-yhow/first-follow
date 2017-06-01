@@ -81,7 +81,8 @@ bool Solution::LoadMyVn()
 				temPos.x=x;
 				temPos.y=y;
 				mVns[mflag[(*itr)[x]-'A'].index].wPs.push_back(temPos);
-				cout<<mVns[mflag[(*itr)[x]-'A'].index].Value<<"£º"<<"("<<temPos.y<<","<<temPos.x<<")"<<endl;
+		
+		//		cout<<mVns[mflag[(*itr)[x]-'A'].index].Value<<"£º"<<"("<<temPos.y<<","<<temPos.x<<")"<<endl;
 			}
 			else if(isVt((*itr)[x]) && (*itr)[x]!='@' )
 			{
